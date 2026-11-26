@@ -22,13 +22,13 @@
 - [x] Commit & Push: `feat(backend): scaffold FastAPI app and health check endpoint`
 
 ### Feature 2: True-Scale Metric Mesh Normalization (`scale.py`)
-- [ ] Implement `backend/app/pipeline/scale.py` using `trimesh` + `numpy`:
+- [x] Implement `backend/app/pipeline/scale.py` using `trimesh` + `numpy`:
   - Unit conversion (`cm`, `mm`, `in` → `meters`)
   - Ground mesh bottom to `Y = 0`, center `X = 0, Z = 0`
   - Rescale bounding box to match target `width_m × height_m × depth_m` (`exact_fit` and `uniform` modes)
   - Return measured bounding box & aspect-ratio delta report
-- [ ] Test: `backend/tests/test_scale.py` verifying box/cylinder/asymmetric meshes scale to exact meters (`< 1 mm` error) and `min_y == 0.0`
-- [ ] Commit & Push: `feat(backend): add true-scale metric mesh normalization module`
+- [x] Test: `backend/tests/test_scale.py` verifying box/cylinder/asymmetric meshes scale to exact meters (`< 1 mm` error) and `min_y == 0.0`
+- [x] Commit & Push: `feat(backend): add true-scale metric mesh normalization module`
 
 ### Feature 3: Photo Segmentation & Background Removal (`segment.py`)
 - [ ] Implement `backend/app/pipeline/segment.py`:
