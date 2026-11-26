@@ -59,10 +59,10 @@
 ## Part 2: Frontend (`frontend/`)
 
 ### Feature 6: Frontend Scaffold, Routing & Shared API Client
-- [ ] Scaffold Vite + React app in `frontend/` (`react-router-dom`, `three`, `@google/model-viewer`, `qrcode.react`, `lucide-react`)
-- [ ] Create shared API client (`frontend/src/api/client.js`), navigation bar switching cleanly between **Dummy Storefront** and **Photo-to-3D Studio**, and `vite.config.js` `/api` proxy
-- [ ] Test: `npm run build` + unit/smoke test verifying routes & API client helpers
-- [ ] Commit & Push: `feat(frontend): scaffold React app, routing, and backend API client`
+- [x] Scaffold Vite + React app in `frontend/` (`react-router-dom`, `three`, `@google/model-viewer`, `qrcode.react`, `lucide-react`)
+- [x] Create shared API client (`frontend/src/api/client.js`), navigation bar switching cleanly between **Dummy Storefront** and **Photo-to-3D Studio**, and `vite.config.js` `/api` proxy
+- [x] Test: `npm run build` + unit/smoke test verifying routes & API client helpers
+- [x] Commit & Push: `feat(frontend): scaffold React app, routing, and backend API client`
 
 ### Feature 7: Actual App — Photo-to-3D True-Scale Studio (`/studio`)
 - [ ] Build `StudioPage.jsx` with multi-photo uploader (1–6 photos + angle selector `front/side/back/top`), dimension inputs (`W × H × D` with `cm`/`in` toggle), and live pipeline progress polling
