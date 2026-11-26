@@ -65,10 +65,10 @@
 - [x] Commit & Push: `feat(frontend): scaffold React app, routing, and backend API client`
 
 ### Feature 7: Actual App — Photo-to-3D True-Scale Studio (`/studio`)
-- [ ] Build `StudioPage.jsx` with multi-photo uploader (1–6 photos + angle selector `front/side/back/top`), dimension inputs (`W × H × D` with `cm`/`in` toggle), and live pipeline progress polling
-- [ ] Build Three.js `ModelScaleInspector.jsx` showing the reconstructed `.glb`, toggleable metric bounding-box wireframe, live dimension labels, and Virtual Room Reference props (`175 cm` person / `200 cm` doorframe / desk)
-- [ ] Test: Component/build tests + live verification against backend API output
-- [ ] Commit & Push: `feat(frontend): add Photo-to-3D True-Scale Studio and 3D dimension inspector`
+- [x] Build `StudioPage.jsx` with multi-photo uploader (1–6 photos + angle selector `front/side/back/top`), dimension inputs (`W × H × D` with `cm`/`in` toggle), and live pipeline progress polling
+- [x] Build Three.js `ModelScaleInspector.jsx` showing the reconstructed `.glb`, toggleable metric bounding-box wireframe, live dimension labels, and Virtual Room Reference props (`175 cm` person / `200 cm` doorframe / desk)
+- [x] Test: Component/build tests + live verification against backend API output
+- [x] Commit & Push: `feat(frontend): add Photo-to-3D True-Scale Studio and 3D dimension inspector`
 
 ### Feature 8: True-Scale AR Placement Viewer (`/ar/:id`)
 - [ ] Build `ArViewerPage.jsx` using `<model-viewer>` with `ar`, `ar-scale="fixed"`, `ar-modes="webxr scene-viewer quick-look"`
