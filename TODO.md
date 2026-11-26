@@ -77,7 +77,7 @@
 - [x] Commit & Push: `feat(frontend): add true-scale locked WebAR viewer, iOS USDZ export, and QR handoff`
 
 ### Feature 9: Dummy Amazon-Style E-Commerce Demo (`/` & `/product/:id`)
-- [ ] Build `StorefrontPage.jsx` and `ProductDetailPage.jsx` ("ShopScale" Amazon-like UI) with search/filter, multi-angle gallery, and "Product Specifications & Dimensions" table
-- [ ] Wire **"View in Your Room (True-Scale AR)"** and **"Generate 3D from Listing Photos"** buttons directly into the backend pipeline & `/ar/:id` viewer
-- [ ] Test: `npm run build` + end-to-end flow check (Storefront → Generate 3D → True-Scale AR Viewer) + write final `README.md` with server run instructions for the user
-- [ ] Commit & Push: `feat(frontend): add ShopScale dummy e-commerce storefront demo and README`
+- [x] Build `StorefrontPage.jsx` and `ProductDetailPage.jsx` ("ShopScale" Amazon-like UI) with search/filter, multi-angle gallery, and "Product Specifications & Dimensions" table
+- [x] Wire **"View in Your Room (True-Scale AR)"** and **"Generate 3D from Listing Photos"** buttons directly into the backend pipeline & `/ar/:id` viewer
+- [x] Test: `npm run build` + end-to-end flow check (Storefront → Generate 3D → True-Scale AR Viewer) + write final `README.md` with server run instructions for the user
+- [x] Commit & Push: `feat(frontend): add ShopScale dummy e-commerce storefront demo and README`
