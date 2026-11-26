@@ -9,17 +9,17 @@
 - [x] Inspect workspace & local PC hardware (`Python 3.12.3`, `Node v22.23.5`, Ryzen 5 3550H CPU, `7.2 GiB` RAM, no NVIDIA GPU)
 - [x] Initialize git repository (`main`) and configure `origin` (`https://github.com/Nivas-M/AR_VR_Project.git`)
 - [x] Write `PRD.md`, `TODO.md`, and `.gitignore`
-- [ ] Commit & push initial project docs (`AGENTS.md`, `PRD.md`, `TODO.md`, `.gitignore`)
+- [x] Commit & push initial project docs (`AGENTS.md`, `PRD.md`, `TODO.md`, `.gitignore`)
 
 ---
 
 ## Part 1: Backend Core (`backend/`)
 
 ### Feature 1: Backend Scaffold, Config & Health Check API
-- [ ] Create `backend/` directory structure, `requirements.txt`, `app/config.py`, `app/main.py` (`GET /api/health`)
-- [ ] Create virtual environment (`backend/.venv`) and install base dependencies (`fastapi`, `uvicorn`, `pydantic`, `httpx`, `pytest`)
-- [ ] Test: Unit/API test for `GET /api/health` using FastAPI `TestClient`
-- [ ] Commit & Push: `feat(backend): scaffold FastAPI app and health check endpoint`
+- [x] Create `backend/` directory structure, `requirements.txt`, `app/config.py`, `app/main.py` (`GET /api/health`)
+- [x] Create virtual environment (`backend/.venv`) and install base dependencies (`fastapi`, `uvicorn`, `pydantic`, `httpx`, `pytest`)
+- [x] Test: Unit/API test for `GET /api/health` using FastAPI `TestClient`
+- [x] Commit & Push: `feat(backend): scaffold FastAPI app and health check endpoint`
 
 ### Feature 2: True-Scale Metric Mesh Normalization (`scale.py`)
 - [ ] Implement `backend/app/pipeline/scale.py` using `trimesh` + `numpy`:
