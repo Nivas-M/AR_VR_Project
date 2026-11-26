@@ -39,13 +39,13 @@
 - [x] Commit & Push: `feat(backend): add memory-safe image segmentation and preprocessing`
 
 ### Feature 4: Local CPU Photo-to-3D Reconstruction Engine (`reconstruct.py`)
-- [ ] Implement pluggable `backend/app/pipeline/reconstruct.py`:
+- [x] Implement pluggable `backend/app/pipeline/reconstruct.py`:
   - `local_cpu` engine:
     - Multi-view silhouette carving (`numpy` voxel grid + `scikit-image` Marching Cubes) + Laplacian smoothing (`trimesh`) + multi-angle photo color projection → textured `.glb`
     - Single-photo fallback: symmetric depth/profile extrusion + front/back photo color mapping → textured `.glb`
   - Engine registry interface ready for optional `triposr_local` / `hf_free_space`
-- [ ] Test: `backend/tests/test_reconstruct.py` generating `.glb` files from 1-view and multi-view synthetic RGBA silhouettes, checking valid glTF export & non-empty geometry
-- [ ] Commit & Push: `feat(backend): add CPU-friendly photo-to-3D mesh reconstruction pipeline`
+- [x] Test: `backend/tests/test_reconstruct.py` generating `.glb` files from 1-view and multi-view synthetic RGBA silhouettes, checking valid glTF export & non-empty geometry
+- [x] Commit & Push: `feat(backend): add CPU-friendly photo-to-3D mesh reconstruction pipeline`
 
 ### Feature 5: End-to-End Pipeline API & Dummy Store Sample Catalog (`main.py` + `catalog.py`)
 - [ ] Create bundled sample product assets (`backend/assets/products/`) with multi-angle PNGs and real dimensions (`W × H × D`)
