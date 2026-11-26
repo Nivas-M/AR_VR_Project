@@ -71,10 +71,10 @@
 - [x] Commit & Push: `feat(frontend): add Photo-to-3D True-Scale Studio and 3D dimension inspector`
 
 ### Feature 8: True-Scale AR Placement Viewer (`/ar/:id`)
-- [ ] Build `ArViewerPage.jsx` using `<model-viewer>` with `ar`, `ar-scale="fixed"`, `ar-modes="webxr scene-viewer quick-look"`
-- [ ] Add browser-side `Three.js USDZExporter` for iOS AR Quick Look support + QR code modal for scanning from a phone on local network/tunnel
-- [ ] Test: `npm run build` + verify `USDZExporter` & `<model-viewer>` props (locked `1:1` scale)
-- [ ] Commit & Push: `feat(frontend): add true-scale locked WebAR viewer, iOS USDZ export, and QR handoff`
+- [x] Build `ArViewerPage.jsx` using `<model-viewer>` with `ar`, `ar-scale="fixed"`, `ar-modes="webxr scene-viewer quick-look"`
+- [x] Add browser-side `Three.js USDZExporter` for iOS AR Quick Look support + QR code modal for scanning from a phone on local network/tunnel
+- [x] Test: `npm run build` + verify `USDZExporter` & `<model-viewer>` props (locked `1:1` scale)
+- [x] Commit & Push: `feat(frontend): add true-scale locked WebAR viewer, iOS USDZ export, and QR handoff`
 
 ### Feature 9: Dummy Amazon-Style E-Commerce Demo (`/` & `/product/:id`)
 - [ ] Build `StorefrontPage.jsx` and `ProductDetailPage.jsx` ("ShopScale" Amazon-like UI) with search/filter, multi-angle gallery, and "Product Specifications & Dimensions" table

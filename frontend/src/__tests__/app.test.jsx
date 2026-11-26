@@ -43,7 +43,7 @@ describe("Frontend routing and API client", () => {
         <AppRoutes />
       </MemoryRouter>
     );
-    expect(screen.getByText(/True-Scale AR Placement Viewer: demo-model/i)).toBeInTheDocument();
+    expect(screen.getByTestId("ar-model-viewer")).toBeInTheDocument();
     await waitFor(() => expect(screen.getByText(/API Ready \(local_cpu\)/i)).toBeInTheDocument());
   });
 
