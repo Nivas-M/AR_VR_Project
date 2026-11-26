@@ -31,12 +31,12 @@
 - [x] Commit & Push: `feat(backend): add true-scale metric mesh normalization module`
 
 ### Feature 3: Photo Segmentation & Background Removal (`segment.py`)
-- [ ] Implement `backend/app/pipeline/segment.py`:
+- [x] Implement `backend/app/pipeline/segment.py`:
   - Resize/normalize input images safely (memory cap for `7.2 GiB` RAM)
   - Foreground mask extraction (lightweight CPU-friendly segmentation: studio background removal + OpenCV/PIL GrabCut/edge-aware fallback, plus optional `rembg` `u2netp` support)
   - Tight crop & square pad centered foreground RGBA output
-- [ ] Test: `backend/tests/test_segment.py` with synthetic product images (white bg + colored bg) verifying clean alpha mask & bounding crop
-- [ ] Commit & Push: `feat(backend): add memory-safe image segmentation and preprocessing`
+- [x] Test: `backend/tests/test_segment.py` with synthetic product images (white bg + colored bg) verifying clean alpha mask & bounding crop
+- [x] Commit & Push: `feat(backend): add memory-safe image segmentation and preprocessing`
 
 ### Feature 4: Local CPU Photo-to-3D Reconstruction Engine (`reconstruct.py`)
 - [ ] Implement pluggable `backend/app/pipeline/reconstruct.py`:
