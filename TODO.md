@@ -48,11 +48,11 @@
 - [x] Commit & Push: `feat(backend): add CPU-friendly photo-to-3D mesh reconstruction pipeline`
 
 ### Feature 5: End-to-End Pipeline API & Dummy Store Sample Catalog (`main.py` + `catalog.py`)
-- [ ] Create bundled sample product assets (`backend/assets/products/`) with multi-angle PNGs and real dimensions (`W × H × D`)
-- [ ] Implement `POST /api/reconstruct`, `GET /api/jobs/{job_id}`, `GET /api/models/{model_id}.glb`, `GET /api/products`, `GET /api/products/{id}`
-- [ ] Wire full pipeline: `upload/product photos → segment → reconstruct → metric scale → save .glb`
-- [ ] Test: `backend/tests/test_api_pipeline.py` end-to-end API test verifying a submitted photo set produces a downloadable `.glb` whose bounding box matches requested real-world meters
-- [ ] Commit & Push: `feat(backend): add reconstruction job API, GLB serving, and sample catalog`
+- [x] Create bundled sample product assets (`backend/assets/products/`) with multi-angle PNGs and real dimensions (`W × H × D`)
+- [x] Implement `POST /api/reconstruct`, `GET /api/jobs/{job_id}`, `GET /api/models/{model_id}.glb`, `GET /api/products`, `GET /api/products/{id}`
+- [x] Wire full pipeline: `upload/product photos → segment → reconstruct → metric scale → save .glb`
+- [x] Test: `backend/tests/test_api_pipeline.py` end-to-end API test verifying a submitted photo set produces a downloadable `.glb` whose bounding box matches requested real-world meters
+- [x] Commit & Push: `feat(backend): add reconstruction job API, GLB serving, and sample catalog`
 
 ---
 
